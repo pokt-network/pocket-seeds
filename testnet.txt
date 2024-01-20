@@ -1,0 +1,5 @@
+b3d86cd8ab4aa0cb9861cb795d8d154e685a94cf@seed1.testnet.pokt.network:26663
+17ca63e4ff7535a40512c550dd0267e519cafc1a@139.64.137.122:26756
+f99386c6d7cd42a486c63ccd80f5fbea68759cd7@testned_seed_3.cryptonode.tools:16656
+5b0107a5252f6a037eed7f5c24a7d916e4dd93bd@testnet_seed_4.cryptonode.tools:16646
+
