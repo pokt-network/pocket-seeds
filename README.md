@@ -7,6 +7,7 @@ You can use this information to set up a new node.
 - [MainNet Helpers](#mainnet-helpers)
   - [Update Config](#update-config)
   - [Echo MainNet Seeds](#echo-mainnet-seeds)
+  - [Test MainNet Seeds](#test-mainnet-seeds)
 - [TestNet Helpers](#testnet-helpers)
   - [Echo TestNet Seeds](#echo-testnet-seeds)
 
@@ -25,6 +26,12 @@ sed -i 's/"Seeds":.*$/"Seeds": "'${SEEDS}'",/' ${HOME}/.pocket/config/config.jso
 
 ```bash
 echo $(curl -s "https://raw.githubusercontent.com/pokt-network/pocket-seeds/main/mainnet.txt" | tr '\n' ',' | sed 's/,*$//')
+```
+
+### Test MainNet Seeds
+
+```bash
+./mainnet_test.sh
 ```
 
 ## TestNet Helpers
